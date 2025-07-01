@@ -10,11 +10,17 @@ class ex03{
 	System.out.println("What is your name?");
 	System.out.print("> ");
 
+<<<<<<< HEAD
 	String name = nextLine();
 	
+=======
+	String name = sc.nextLine();
+
+>>>>>>> experimental
 	System.out.println();
 	System.out.println("Hello, " + name + "!");
-
+	
+   
 	int die1 = ra.nextInt(6) + 1;
 	int die2 = ra.nextInt(6) + 1;
 	int total = die1 + die2;
@@ -24,13 +30,16 @@ class ex03{
 	System.out.println("Die 2: " + die2);
 	System.out.println("Total value: " + total);
 
+<<<<<<< HEAD
 	if(total>7){
-	    System.out.println(name + " won!");
+	    System.out.println("You won!");
 	}
 	else{
-	    System.out.println(name + " lost!");
+	    System.out.println("You lost!");
 	}
 	
+=======
+>>>>>>> experimental
 	sc.close();
     }
 }
