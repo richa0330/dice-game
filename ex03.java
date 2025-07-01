@@ -7,6 +7,14 @@ class ex03{
 	Scanner sc = new Scanner(System.in);
 	Random ra = new Random();
 
+	System.out.println("What is your name?");
+	System.out.print("> ");
+
+	String name = sc.nextLine();
+
+	System.out.println();
+	System.out.println("Hello, " + name + "!");
+	
    
 	int die1 = ra.nextInt(6) + 1;
 	int die2 = ra.nextInt(6) + 1;
