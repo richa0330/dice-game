@@ -29,7 +29,7 @@ class ex03{
 	else{
 	    System.out.println(name + " lost!");
 	}
-
+	
 	sc.close();
     }
 }
