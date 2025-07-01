@@ -32,10 +32,10 @@ class ex03{
 
 <<<<<<< HEAD
 	if(total>7){
-	    System.out.println("You won!");
+	    System.out.println(name + " won!");
 	}
 	else{
-	    System.out.println("You lost!");
+	    System.out.println(name + " lost!");
 	}
 	
 =======
